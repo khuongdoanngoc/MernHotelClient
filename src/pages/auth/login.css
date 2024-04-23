@@ -1,0 +1,136 @@
+.login {
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title {
+    font-size: 1.4em!important;
+    font-weight: 600;
+}
+
+.login-row {
+    display: flex;
+}
+
+.login-normally {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    gap: 15px;
+}
+
+.login-third-party {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.login-social {
+    all: initial;
+    font-family: 'Poppins';
+    width: 300px;
+    height: 40px;
+    padding: 12px 20px;
+    border: solid;
+    cursor: pointer;
+}
+
+.login-social:hover {
+    border-color: black !important;
+    box-shadow: 0 0 0 0.1rem black !important;
+    background-color: transparent !important;
+    transition: 0.2s ease-in;
+}
+
+.login-social button {
+    all: initial;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.login-submit {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.submit-button {
+    width: 135px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+}
+
+.submit-button:hover {
+    border-color: black !important;
+    box-shadow: 0 0 0 0.1rem black !important;
+    background-color: transparent !important;
+    transition: 0.2s ease-in;
+}
+
+.login-submit-register {
+    all: initial !important;
+    cursor: pointer !important;
+}
+
+.login-submit-register:hover {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.login-forgot-password {
+    margin-left: auto;
+}
+
+.login-forgot-password:hover {
+    box-shadow: none !important;
+}
+
+.roles-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 122px;
+}
+
+.roles-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.radio-roles:focus {
+    box-shadow: none !important;
+}
+
+.radio-roles {
+    cursor: pointer;
+}
+
+.radio-roles:checked {
+    accent-color: black;
+}
+
+.expired-coutdown {
+    margin-top: 10px;
+}
+
+.expired-coutdown span {
+    color: cornflowerblue;
+}

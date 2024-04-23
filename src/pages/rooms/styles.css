@@ -1,0 +1,151 @@
+.rooms-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 25px 0px 25px 0px;
+    align-items: center;
+}
+
+.filter {
+    width: 100%;
+    height: 58px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+}
+
+.sortby {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.booth {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(250px, 1fr)
+    ); /* Tối đa 4 thẻ mỗi hàng */
+    gap: 17px; /* Khoảng cách giữa các thẻ */
+}
+
+.room-info {
+    padding: 25px 0px 16px 0px;
+    display: flex;
+    gap: 16px;
+}
+
+.room-img {
+    height: auto;
+    width: 40%;
+}
+
+.room-description {
+    height: 447.59px;
+    width: 60%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.item-time {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1px;
+    padding-top: 16px;
+}
+
+.time-type {
+    width: 50%;
+}
+.time-value {
+    width: 50% !important;
+}
+.item-picker {
+    width: 285px;
+}
+
+.item-share {
+    padding-top: 16px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.share-icons {
+    width: 35px;
+    height: 35px;
+}
+
+.item-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+}
+.room-rates {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    padding-bottom: 25px;
+}
+.room-rating-result {
+    width: 40%;
+    height: 340px;
+    padding: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.room-rating-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.room-review {
+    width: 60%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 24px;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.btn-publish-review {
+    width: 25%;
+}
+#review-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.review-cards {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.review-title {
+    display: flex;
+    gap: 15px;
+}
+.order-success-info {
+    display: flex;
+    padding: 25px 0px;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.order-success-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.order-action {
+    width: 170px !important;
+}

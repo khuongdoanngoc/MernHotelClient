@@ -1,0 +1,204 @@
+/* HEADER CSS */
+.header {
+    width: 100%;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.5px;
+}
+
+.header-info {
+    width: 100%;
+    height: 36%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 160px;
+    background-color: #24292e;
+    color: white;
+}
+
+.header-info-items {
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.header-container {
+    width: 100%;
+    height: 64%;
+    border-bottom: 1px solid #ebeef6;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 160px 16px 160px;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    width: 270px;
+    height: 100%;
+    gap: 15px;
+    align-items: center;
+}
+
+.header-icon-sidebar {
+    all: initial;
+}
+
+.header-logo a {
+    all: initial;
+    cursor: pointer;
+}
+
+.header-web-name {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.header-search {
+    width: 445px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.header-search input {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.header-right-items {
+    width: 350px;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    gap: 25px;
+    color: #65676b !important;
+}
+
+.header-brands {
+    cursor: pointer;
+}
+
+.text-right-items {
+    cursor: pointer;
+}
+
+.text-right-items:hover {
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.header-auth-dropdown button {
+    background-color: transparent;
+    color: #65676b;
+    border: none;
+
+    &:hover {
+        background-color: transparent;
+        color: black;
+    }
+}
+
+.btn-success {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #65676b !important;
+}
+
+main {
+    padding: 0px 160px 0px 160px;
+    min-height: 58vh;
+}
+
+footer {
+    padding: 0px 160px 0px 160px;
+    height: 290px;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ebeef6;
+}
+
+.footer-content {
+    width: 100%;
+    height: 60%;
+    padding-top: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-content-container {
+    width: 33.3334%;
+    height: 100%;
+}
+
+.footer-border-right {
+    border-right: 1px solid #ebeef6;
+}
+
+.footer-newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px !important;
+}
+
+.footer-content-container span {
+    color: #65676b;
+}
+
+.footer-content-container div {
+    padding-top: 10px;
+    gap: 4px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.footer-copyright {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-copyright span {
+    font-size: 14px;
+    color: #323232;
+}
+
+.footer-social-items {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.footer-social-items i {
+    font-size: 40px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
